@@ -1,0 +1,76 @@
+# ===========================================
+# Fichiers générés - NE PAS COMMITER
+# ===========================================
+
+# Exécutables compilés
+mt_status
+mt_restore
+mt_test
+mt_test_static
+mc_sphere
+mc_sphere_splitting
+mc_lookup
+mc_lookup_seq
+mc_lookup_omp
+generator
+generate_status
+bio_seq
+bio_seq_omp
+testDyn
+testStat
+
+# Fichiers objets
+*.o
+
+# Tableau pré-calculé (TRÈS GROS ~189 Mo)
+tabMT.cpp
+
+# Fichiers de statut générés
+status*.dat
+status_rep_*.dat
+
+# Fichiers de sortie des tests
+EstimationSV3D-*
+output_*.txt
+results_*.txt
+values_*.txt
+seq1.txt
+restored.txt
+
+# Fichier binaire Die Hard
+qrngb
+
+# ===========================================
+# Fichiers LaTeX auxiliaires
+# ===========================================
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Garder le PDF si vous voulez le versionner
+# *.pdf
+
+# ===========================================
+# Bibliothèques compilées (optionnel)
+# ===========================================
+# Décommenter si vous ne voulez pas versionner les libs
+# lib/*.a
+# lib/*.so
+
+# ===========================================
+# Autres
+# ===========================================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
