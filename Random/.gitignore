@@ -22,7 +22,7 @@ testStat
 # Fichiers objets
 *.o
 
-# Tableau pré-calculé (TRÈS GROS ~189 Mo)
+# Tableau pré-calculé (189 Mo)
 tabMT.cpp
 
 # Fichiers de statut générés
@@ -56,13 +56,9 @@ qrngb
 *.snm
 *.vrb
 
-# Garder le PDF si vous voulez le versionner
-# *.pdf
-
 # ===========================================
 # Bibliothèques compilées (optionnel)
 # ===========================================
-# Décommenter si vous ne voulez pas versionner les libs
 # lib/*.a
 # lib/*.so
 
